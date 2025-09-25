@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>syntax - css</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1200px-Official_CSS_Logo.svg.png"
+      type="image/x-icon"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+      body {
+        background-image: url(/pertemuan-1/download.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      * {
+        font-family: SUSE Mono;
+        /* border: 1px solid black; */
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        padding: 10px;
+        color: red;
+        text-decoration: none;
+      }
+      a:hover {
+        color: black;
+      }
+      h1 {
+        text-align: center;
+        background-color: red;
+        color: azure;
+      }
+      #hero-section {
+        padding: 10px 10px 4px 10px;
+        background-color: blue;
+      }
+      #client-section {
+        background-color: gray;
+      }
+      .parent {
+        background-color: aqua;
+        padding-right: 40px;
+      }
+      .child {
+        background-color: brown;
+      }
+      .child-2 {
+        background-color: blue;
+      }
+      .komunitas-parent {
+        background-color: yellowgreen;
+      }
+      .komunitas-child {
+        background-color: blue;
+        margin-right: 40px;
+      }
+      .komunitas-child-2 {
+        background-color: red;
+      }
+      /* 
+        margin adalah mengatur jarak diluar elemen 
+        padding adlah mengatur jarak didalam elemen
+        */
+      h2,
+      h3,
+      h4 {
+        background-color: black;
+        color: white;
+      }
+      .cust {
+        background-color: aliceblue;
+        margin-bottom: 2px;
+      }
+      input[placeholder="Masukkan nama anda"] {
+        background-color: aqua;
+        padding: 10px;
+        border-radius: 10px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <img src="./../pertemuan-1/download.png" alt="Logo" width="50" />
+        <nav>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+        <main>
+          <section id="hero-section">
+            <div>
+              <h1>Belajar Syntax CSS</h1>
+            </div>
+          </section>
+          <section id="client-section">
+            <div>
+              <h1>Klien kami</h1>
+              <div class="parent">
+                <div class="child">
+                  <p>child/anak</p>
+                </div>
+                <div class="child-2">
+                  <p>child-2/anak</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="komunitas-section">
+            <div>
+              <h1>Komunitas kami</h1>
+              <div class="komunitas-parent">
+                <div class="komunitas-child">
+                  <p>child/anak</p>
+                </div>
+                <div class="komunitas-child-2">
+                  <p>child-2/anak</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="list-section">
+            <div>
+              <h1>Daftar list</h1>
+              <ul>
+                <li class="cust">Google</li>
+                <li class="cust">Facebook</li>
+                <li class="cust">Instagram</li>
+              </ul>
+              <h2>Menggunakan h2</h2>
+              <h3>Menggunakan h3</h3>
+              <h4>Menggunakan h4</h4>
+              <input type="text" name="username" placeholder="Masukkan nama anda">
+            </div>
+          </section>
+        </main>
+      <footer>
+        <p>Copyright &copy;2025 Abrizam Laiz</p>
+      </footer>
+    </header>
+  </body>
+</html>

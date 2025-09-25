@@ -1,0 +1,12 @@
+body{
+    background-image: url(./download.png);
+}
+main{
+    background-color: aqua;
+}
+div{
+    background-color: blue;
+}
+section{
+    background-color: aliceblue;
+}
