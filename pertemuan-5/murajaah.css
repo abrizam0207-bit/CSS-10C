@@ -1,0 +1,28 @@
+body{
+    background-color: lime;
+}
+.hero{
+    background-color: aqua;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 5% 0 5%;
+}
+.kolom-1{
+    background-color: lightblue;  
+    order: -1;
+}
+.kolom-2{
+    background-color: lightgreen;
+}
+button{
+    width: 195px;
+    height: 48px;
+    background-color: #D760C7 ;
+    padding: 10px 20px;
+
+}
+

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  background-color: #d9d9d9;
+}
+
+.f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+font-family: Plus Jakarta Sans;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.u {
+  align-items: center;
+  padding: 2px;
+}
+.tombol {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+}
+.tombol button{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+    border-color: azure;
+}
+.tombol a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 16px 10px 16px;
+  font-weight: bold;
+}
+img{
+    border-radius: 30px;
+    width: 50;
+}
+a:hover{
+    color: blue;
+}
+
+
+
+h1{
+    font-size: 46px;
+}
+.navigasi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Plus Jakarta Sans;
+    padding: 30px 40px 30px 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav{
+    padding: 20px 30px 20px 30px;
+    
+}
+.nav button{
+    padding: 10px 19px 10px 19px;
+    border-radius: 4px;
+    background-color: #486284;
+    color: white;
+    border-color: #486284;
+}
+.nav nav a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+

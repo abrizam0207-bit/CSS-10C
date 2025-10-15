@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: Bebas Neue;
+}
+.conten{
+    background-color: #D9D9D9;
+    width: 1411;
+    height: 127px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.jmr{
+    background-color: #9F9F9F;
+    width: 1411;
+    height: 60px;
+
+    margin-left: 1%;
+    margin-right:1% ;
+}
+.umy{
+    background-color: #EBEAEA;
+    width: 1410;
+    height: 313px;
+    margin-bottom: 12px;
+
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.amr{   
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 39px;
+}   
+.upy{
+    background-color: #EBEAEA;
+    width: 337px;
+    height: 353px;    
+}
+.izm{
+    background-color: #EBEAEA;
+    width: 337px;
+    height: 353px; 
+}
+.hfz{
+    background-color: #EBEAEA;
+    width: 337px;
+    height: 353px; 
+}
+.imn{
+    background-color: #EBEAEA;
+    width: 337px;
+    height: 353px; 
+}
+.conta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 39px;
+}
+.vde{
+    background-color: #EBEAEA;
+    width: 695px;
+    height: 353px;
+
+
+}
+.rdw{
+    background-color: #EBEAEA;
+    width: 695px;
+    height: 353px;
+
+}
+.lnv{
+    background-color: #EBEAEA;
+    width: 1411;
+    height: 353px;
+
+    margin: 0 1% 0 1%;
+}
+.ass{
+
+    background-color: #EBEAEA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1247;
+    height: 211px;
+
+    margin: 32px 5% 0 5%;
+}
+.parent{
+    background-color: #EBEAEA;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 32px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 39px;
+
+}
+.contai{
+    background-color: #EBEAEA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1411;
+    height: 353px;
+
+    margin: 0 1% 0 1%;
+}
+.peci{
+    background-color: #C3BFBF;
+    width:  266px;
+    height: 223px;
+}
+.amba{
+     background-color: #C3BFBF;
+     width:  266px;
+     height: 223px;
+}
+.bau{
+    background-color: #C3BFBF;
+    width:  266px;
+    height: 223px;
+}
+.apit{
+     background-color: #C3BFBF;
+     width:  266px;
+     height: 223px;
+}
+.ft{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    margin: 63px 1% 0 1%;
+    padding: 0 3% 0 3%;
+    font-size: x-large  ;
+    
+
+
+    width: 1410;
+    height: 125px;
+}
+
+
+
+

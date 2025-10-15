@@ -1,0 +1,12 @@
+.container{
+    background-color: purple ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column-1{
+    background-color: brown;
+}
+.column2{
+    background-color: blue;
+}   
