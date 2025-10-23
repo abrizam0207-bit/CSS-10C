@@ -1,0 +1,51 @@
+.container{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.kl-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.kl-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kl-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.container-3{
+    background-color: lightgreen;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kl-4{
+   background-color: yellow;
+}
+.kl-5{
+    background-color: brown;
+}
+@media (min-width: 361px) {
+    .container-3{
+        background-color: lightpink;
+
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

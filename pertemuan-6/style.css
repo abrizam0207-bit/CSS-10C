@@ -1,0 +1,26 @@
+.text-base{
+    text-align: center;
+}
+.text-arab{
+    direction: rtl;
+    text-align: center;
+}
+.dec{
+    text-decoration: overline double  aqua;
+    text-transform: uppercase;
+}
+.text-space{
+    text-indent: 10px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    word-spacing: 0px;
+    
+}
+.text-overf{
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 4px 4px 10px rgb(107, 104, 104);
+
+}

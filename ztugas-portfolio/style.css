@@ -1,0 +1,206 @@
+* {
+  padding: 0%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #3a3c56;
+  background-color: #391400;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+nav {
+  display: none;
+}
+.btn {
+  display: none;
+}
+/* Masuk mode section */
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 23px;
+}
+.kanan {
+  width: 329px;
+  height: 334px;
+  margin-top: 16px;
+}
+.kanan img {
+  width: 100%;
+}
+/* .kanan img{
+    width: 329px;
+    height: 334px;
+    margin-top: 16px;
+} */
+.child-1 h4 {
+  color: #ef6d58;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.child-1 h1 {
+  color: white;
+  margin-top: 20px;
+  font-size: 56px;
+}
+.child-1 p {
+  color: rgba(255, 255, 255, 0.521);
+  margin-top: 16px;
+}
+.child-2 button {
+  width: 154px;
+  height: 48px;
+  background-color: #ef6d58;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.child-2 a {
+  margin-left: 48px;
+  text-decoration: none;
+  color: white;
+}
+.komen img {
+  margin-top: 44px;
+  width: 300px;
+  height: 40px;
+}
+.container-2 {
+  background-color: #f3d1bf;
+  width: 375px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.atas-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.parent{
+  margin: 0 5% 0 5%;
+}
+.kanan-2 h5 {
+  color: #ef6d58;
+  font-size: 16px;
+}
+.kanan-2 h1 {
+  color: #391400;
+  font-size: 40px;
+}
+.kanan-2 h4 {
+  color: #391400;
+}
+.kanan-2 p {
+  color: #39140079;
+}
+.btn-2 button {
+  color: #391400;
+  background-color: white;
+  font-weight: bolder;
+  border: none;
+  width: 138px;
+  height: 48px;
+  margin-top: 32px;
+}
+.ats-1 {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .btn {
+    display: block;
+  }
+  .logo {
+    margin-left: 135px;
+    margin-top: 12px;
+  }
+  nav {
+    display: inline-block;
+  }
+  header .menu {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 40px;
+    gap: 150px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .btn button {
+    /* display: inline-block; */
+    width: 138px;
+    height: 48px;
+    margin-right: 135px;
+    margin-top: 16px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border-color: rgba(255, 255, 255, 0.445);
+  }
+  /* Masuk mode section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 135px 0 135px;
+  }
+  .kanan {
+    width: 570px;
+    height: 601px;
+  }
+  .komen {
+    margin-top: 108px;
+  }
+  .child-2 a {
+    margin-left: 48px;
+  }
+  .container-2 {
+    display: flex;
+    width: auto;
+  }
+  .atas-1 {
+    display: none;
+  }
+  .ats-1 {
+    background-color:#f3d1bf ;
+    display: inline;
+    margin: 0 25px 0 25px;
+  }
+  .ats-1 img{
+    width: 100%;
+    
+  }
+  .parent {
+    background-color: #f3d1bf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* width: 1900px; */
+    /* height: 900 px; */
+    margin-top: 175px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .kiri-2 img {
+    width: 555px;
+    height: 555px;
+  }
+  /* .kanan-2 {
+    width: 566px;
+    height: 585px;
+  } */
+}

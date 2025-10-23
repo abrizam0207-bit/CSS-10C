@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 0 5% 0 5%;
+}
+button {
+  background-color: #d760c7;
+  width: 135px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+p {
+  color: #626263;
+}
+.container img {
+  width: 360px;
+  height: 385px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+
+  margin: 100px 5% 48px 5%;
+}
+.kl-1 img {
+  width: 550px;
+
+  margin-top: 48px;
+}
+.kl-2 h1 {
+  font-size: 24px;
+}
+.kl-2 p {
+  font-size: 16px;
+  color: #626263;
+}
+.kl-2 span {
+  font-size: 16px;
+  color: #626263;
+}
+.btn-1 button {
+  margin-top: 24px;
+}
+
+.ucup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logs h1 {
+  margin: 20px 7% 0 10px;
+}
+.icon {
+  display: inline-block;
+  margin-top: 30px;
+}
+nav {
+  display: none;
+}
+header{
+    margin: 10px;
+}
+.kanan{
+    display: none;
+}
+@media (min-width: 391px) {
+  .nav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .nav a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  .nav button {
+    margin: 10px;
+    width: 100px;
+    height: 34px;
+  }
+  .nav button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .container {
+    background-color: #f0ecec;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+  .container h1 {
+    font-size: 48px;
+  }
+  .container p {
+    font-size: 20px;
+  }
+  .container img {
+    width: 900px;
+    height: 900px;
+  }
+  .container button {
+    width: 195px;
+    height: 48px;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 250px 5% 48px 5%;
+  }
+  .kl-1 img {
+    width: 100%;
+  }
+  .kl-1 {
+    width: 600px;
+    height: auto;
+  }
+  .kl-2 {
+    flex-direction: column;
+    display: flex;
+  }
+  .kl-2 h1 {
+    font-size: 32px;
+  }
+  .kl-2 p {
+    font-size: 20px;
+    color: #626263;
+  }
+  .kl-2 span {
+    font-size: 20px;
+    color: #626263;
+  }
+  .btn-1 button {
+    width: 200px;
+    height: 48px;
+
+    margin-top: 48px;
+  }
+  .icon {
+    display: none;
+  }
+  .ucup {
+    display: inline-block;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px;
+  }
+  .parent {
+    display: inline-block;
+    flex-direction: row;
+  }
+  .ortus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 64px;
+  }
+  .gmbr-2 {
+    margin-left: 20px;
+    justify-content: center;
+  }
+  .gmbr-1 {
+    margin-right: px;
+    justify-content: center;
+  }
+  .kanan{
+    margin-right: 100px; 
+  }
+  .kanan button{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+}
