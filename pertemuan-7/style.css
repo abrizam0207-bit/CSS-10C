@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Blades';
+    src: url(./assets/the_golden_blade/The\ Golden\ Blade.ttf);
+}
+@font-face{
+    font-family: 'chig';
+    src: url(./assets/gothik_steel/Gothik\ Steel.ttf);
+}
+
+p{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Blades";
+    font-style: oblique;
+}
+h1{
+    font-size: 48px;
+    font-family: "chig";
+}

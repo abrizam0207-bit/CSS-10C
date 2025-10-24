@@ -1,9 +1,170 @@
-body{
-    background-image: url(./andrej-lisakov-3A4XZUopCJA-unsplash\ 1\ \(1\).png);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  /* background-image: url(./andrej-lisakov-3A4XZUopCJA-unsplash\ 1\ \(1\).png); */
+  font-family: Lato;
+  /* background-color: white; */
+  margin: 0;
+  padding: 0;
 }
-.container{
+.container {
+  background: linear-gradient(
+    204deg,
+    rgba(16, 215, 222, 1) 0%,
+    rgba(253, 45, 243, 1) 100%
+  );
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 400px; */
+}
+.parent h1 {
+  color: #495367;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  text-shadow: 8px 8px 10px;
+}
+h3 {
+  color: #495367;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+.container-2 {
+  margin-top: 50px;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 92px;
+}
+.judul h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.judul h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.judul i {
+  font-size: 32px;
+  font-style: italic;
+  line-height: auto;
+  color: #954b2391;
+}
+.problem h4 {
+  font-size: 24px;
+  color: #495367;
+}
+.problem p {
+  color: #434343;
+  font-size: 24px;
+  font-weight: normal;
+}
+.letak h4 {
+  font-size: 24px;
+  color: #495367;
+  font-weight: bold;
+}
+.letak p {
+  font-size: 24px;
+  color: #434343;
+}
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 300px;
+  margin-left: 92px;
+  margin-right: 92px;
+}
+.kiri-2{
+    width: 200px;
+    height: 200px;
+    
+}
+.kanan-2 {
+  width: 400px;
+  height: 80px;
+}
+/* besok lanjut besarin ukuran font sama buat footer */
+.judul-2 h1 {
+  margin-right: 2px;
+  color: #495367;
+  font-size: 48px;
+  font-weight: bold;
+}
+.judul-2 h4 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.penjelasan p {
+  font-size: 24px;
+  font-weight: normal;
+}
+.penjelasan a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.penjelasan img {
+  margin-top: 64px;
+}
+.container-4 {
+  margin-top: 1000px;
+}
+.container-4{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #434343;
     align-items: center;
+    width: auto;
+    height: 700px;
+    
 }
+.container-4 .tombol {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  background: linear-gradient(
+    204deg,
+    rgba(205, 16, 222, 1) 44%,
+    rgba(242, 149, 0, 1) 100%
+  );
+}
+.container-4 .btn {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  background: linear-gradient(
+    204deg,
+    rgba(97, 0, 176, 1) 77%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.container-4 .btn-1{
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: black;
+}
+.container-4 .btn-2{
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
