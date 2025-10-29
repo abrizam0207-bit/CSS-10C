@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+ body{
+    font-family: 'cormorant';
+    text-align: center;
+ }
+ .judul{
+    font-weight: 700;
+    font-size: 35px;
+ }
+ .atas{
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .tengah{
+    font-weight: 500;
+    font-size: 150px;
+ }
+ .ct{
+    font-weight: 700;
+    font-size: 100px;
+ }
+ span{
+    font-weight: 300;
+    font-size: 70px;
+ }
+ .kicik{
+    font-weight: 500;
+    font-size: 12px;
+ }

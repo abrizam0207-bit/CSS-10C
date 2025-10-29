@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+    background-color: #F9F8F3;
+    font-family: 'cormorant';
+}
+.parent{
+    text-align: center;
+}
+.pertama{
+    font-size: 79px;
+    
+}
+.link{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: italic;
+}
+.tengah{
+    background-color: white;
+}
+.atas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.satu{
+    font-size: 20px;
+    font-weight: 300;
+}
+.dua{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+.tiga{
+    font-size: 20px;
+    font-weight: 400;
+}
+.empat{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+.lima{
+    font-size: 20px;
+    font-weight: 500;
+}
+.enam{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.tujuh{
+    font-weight: 600;
+    font-size: 20px;
+}
+.lapan{
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+.sembilan{
+    font-weight: 700;
+    font-size: 20px;
+}
+.luh{
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+}
+.gede{
+    font-weight: 400;
+    font-size: 29px;
+}
+.panjang{
+    font-weight: 500;
+    font-size: 14px;
+}
+.bawah{
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+}
+.ujung{
+    font-weight: 400;
+    font-size: 92px;
+    text-align: center;
+}

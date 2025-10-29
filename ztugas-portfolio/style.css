@@ -85,7 +85,8 @@ nav {
 
 }
 .parent{
-  margin: 0 5% 0 5%;
+  margin: 0 5% 20px 5%;
+
 }
 .kanan-2 h5 {
   color: #ef6d58;
@@ -112,6 +113,10 @@ nav {
 }
 .ats-1 {
   display: none;
+}
+.kiri-2 img{
+  width: 329px;
+  height: 340px;
 }
 .container-4 {
   margin-top: 0px;
@@ -248,7 +253,7 @@ footer{
     margin-right: 50px;
   }
   .kiri-2 img {
-    width: 555px;
+    width: 550px;
     height: 555px;
   }
   /* .kanan-2 {
@@ -301,12 +306,17 @@ footer{
   background-color: red;
 }
 footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center ;
     background-color: black;
     color: white;
     height: 50px;
-    text-align: center;
+    /* text-align: center; */
 }
-a:hover{
+nav a:hover{
   color: blue;
+  text-decoration: underline;
 }
 }
