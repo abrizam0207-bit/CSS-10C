@@ -95,6 +95,154 @@ margin-top: 10px;
   text-align: center;
   margin-bottom: 100px;
 }
+.bag-1 {
+  background-color: #d9d9d9;
+  width: 305px;
+  height: 356px;
+  border-radius: 20px;
+
+  margin-top: 54px;
+}
+.atas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 20px; */
+}
+.bawah {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+.btn-sewa {
+  background-color: #e60012;
+  width: 100px;
+  height: 35px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.foto {
+  padding-left: 50px;
+}
+.btn-sewa:hover {
+  background-color: #486284;
+}
+.bag-2 {
+  background-color: #d9d9d9;
+  width: 305px;
+  height: 356px;
+  border-radius: 20px;
+
+  margin-top: 54px;
+}
+.atas2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 20px; */
+}
+.bawah2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+.btn-sewa2 {
+  background-color: #e60012;
+  width: 100px;
+  height: 35px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.foto2 {
+  padding-left: 50px;
+}
+.btn-sewa2:hover {
+  background-color: #486284;
+}
+.bag-3 {
+  background-color: #d9d9d9;
+  width: 305px;
+  height: 356px;
+  border-radius: 20px;
+
+  margin-top: 54px;
+}
+.atas3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 20px; */
+}
+.bawah3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 100px; */
+}
+.btn-sewa3 {
+  background-color: #e60012;
+  width: 100px;
+  height: 35px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.foto3 {
+  padding-left: 50px;
+}
+.btn-sewa3:hover {
+  background-color: #486284;
+}
+.bag-4 {
+  background-color: #d9d9d9;
+  width: 305px;
+  height: 356px;
+  border-radius: 20px;
+
+  margin-top: 54px;
+}
+.atas4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 20px; */
+}
+.bawah4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+.btn-sewa4 {
+  background-color: #e60012;
+  width: 100px;
+  height: 35px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.foto4 {
+  padding-left: 40px;
+}
+.btn-sewa4:hover {
+  background-color: #486284;
+}
 
 @media (min-width: 1450px) {
   .bagian-nav {
@@ -113,7 +261,7 @@ margin-top: 10px;
 
     font-family: Poppins, sans-serif;
 
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px rgb(68, 67, 67);
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -211,6 +359,15 @@ margin-top: 10px;
     border-radius: 5px;
     cursor: pointer;
   }
+  .tmbl:hover{
+    box-shadow: 0 0 15px #e60012, 0 0 30px #e60012;
+    transform: scale(1.05);
+  }
+  .tombol a:hover{
+    color: black;
+    text-decoration: underline;
+
+  }
   .container-2 {
     display: block;
     text-align: center;
@@ -231,7 +388,158 @@ margin-top: 10px;
   .container-5 li a {
     font-size: 24px;
   }
+  .content-harry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   .bag-1 {
-    background-color: white;
+    background-color: #d9d9d9;
+    width: 305px;
+    height: 356px;
+    border-radius: 20px;
+
+    margin-top: 54px;
+  }
+  .atas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 20px; */
+  }
+  .bawah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+  }
+  .btn-sewa {
+    background-color: #e60012;
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .foto {
+    padding-right: 50px;
+  }
+  .btn-sewa:hover {
+    background-color: #486284;
+  }
+  .bag-2 {
+    background-color: #d9d9d9;
+    width: 305px;
+    height: 356px;
+    border-radius: 20px;
+
+    margin-top: 54px;
+  }
+  .atas2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 20px; */
+  }
+  .bawah2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+  }
+  .btn-sewa2 {
+    background-color: #e60012;
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .foto2 {
+    padding-right: 50px;
+  }
+  .btn-sewa2:hover {
+    background-color: #486284;
+  }
+
+  .bag-3 {
+    background-color: #d9d9d9;
+    width: 305px;
+    height: 356px;
+    border-radius: 20px;
+
+    margin-top: 54px;
+  }
+  .atas3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 20px; */
+  }
+  .bawah3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+  }
+  .btn-sewa3 {
+    background-color: #e60012;
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .foto3 {
+    padding-right: 50px;
+  }
+  .btn-sewa3:hover {
+    background-color: #486284;
+  }
+  .bag-4 {
+    background-color: #d9d9d9;
+    width: 305px;
+    height: 356px;
+    border-radius: 20px;
+
+    margin-top: 54px;
+  }
+  .atas4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 20px; */
+  }
+  .bawah4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+  }
+  .btn-sewa4 {
+    background-color: #e60012;
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .foto4 {
+    padding-right: 40px;
+  }
+  .btn-sewa4:hover {
+    background-color: #486284;
   }
 }
