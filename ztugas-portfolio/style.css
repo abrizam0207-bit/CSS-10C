@@ -70,9 +70,9 @@ nav {
   width: 300px;
   height: 40px;
 }
-.container-2 {
+#container-2 {
   background-color: #f3d1bf;
-  width: 375px;
+  width: 100%;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@ nav {
   background-color: #434343;
   align-items: center;
   width: auto;
-  height: 1000px;
+  height: 1300px;
 }
 .container-4 .tombol {
   width: 250px;
@@ -140,7 +140,7 @@ nav {
     rgba(242, 149, 0, 1) 100%
   );
 }
-.container-4 .btn {
+.container-4 .btn-0 {
   width: 250px;
   height: 300px;
   border-radius: 20px;
@@ -353,7 +353,7 @@ footer {
       rgba(242, 149, 0, 1) 100%
     );
   }
-  .container-4 .btn {
+  .container-4 .btn-0 {
     width: 250px;
     height: 300px;
     border-radius: 20px;
@@ -386,8 +386,11 @@ footer {
     /* text-align: center; */
   }
   nav a:hover {
-    color: blue;
-    text-decoration: underline;
+    /* color: blue;
+    text-decoration: underline; */
+    background-color: #ef6d58;
+    padding: 8px 12px;
+    border-radius: 30px;
   }
   .angka {
     background-color: #f3d1bf;

@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "sen", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* margin-top: 20px; */
+}
+nav a {
+  display: none;
+}
+.icon {
+  display: block;
+  color: aliceblue;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+.logo h1 {
+  color: white;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.kiri img {
+  width: 360px;
+  height: 288px;
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.kanan {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #181823;
+  width: 360px;
+  height: 364px;
+
+  /* z-index: -1; */
+  margin-top: -5px;
+  margin-left: 20px;
+}
+.kanan h1 {
+  font-size: 32px;
+
+  margin-top: 48px;
+  margin-left: 20px;
+}
+.kanan p {
+  margin-left: 20px;
+  font-size: 18px;
+  width: 320px;
+  height: 135px;
+}
+.container-2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.atas p{
+    font-size: 16px;
+}
+.atas h3{
+    font-size: 32px;
+}
+.one{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.one h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.one h5{
+    font-size: 24px;
+    color: greenyellow;
+    
+}
+.one span{
+    color: aliceblue;
+}
+.one p{
+    font-size: 16px;
+}
+.two{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.two h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.two h5{
+    font-size: 24px;
+    color: lightblue;
+    
+}
+.two span{
+    color: aliceblue;
+}
+.two p{
+    font-size: 16px;
+}
+.three{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.three h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.three h5{
+    font-size: 24px;
+    color: pink;
+    
+}
+.three span{
+    color: aliceblue;
+}
+.three p{
+    font-size: 16px;
+}
+.container-3{
+    background-color: #FFF3E4;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    margin-left: 20px;
+    margin-top: 46px;
+}
+.top .filsuf{
+    font-size: 32px;
+    font-weight: bold;
+}
+.top .isi{
+    font-size: 18px;
+    color: darkgray;
+    width: 320px;
+    height: 189px;
+}
+.top .more {
+    /* border-bottom: 2px solid black; */
+    color: black;
+}
+.bottom{
+    margin-top: 48px;
+    margin-left: 15px;
+}
+.kedua{
+    display: none;
+}
+
+
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* margin-top: 20px;    */
+  }
+  .logo h1 {
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  nav {
+    margin-top: 25px;
+    margin-right: 40px;
+
+    display: flex;
+    flex-direction: row;
+  }
+  nav a {
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.514);
+    text-decoration: none;
+    display: block;
+  }
+  .active {
+    /* background-color: white; */
+    /* padding: 4px 8px; */
+    /* color: black;
+    border-radius: 30px; */
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .kanan {
+    /* position: relative; */
+    color: white;
+    background-color: #181823;
+    width: 1500px;
+    height: 900px;
+
+    z-index: -1;
+    margin-top: -50px;
+  }
+  .kanan h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 76px;
+
+    margin-top: 268px;
+    margin-left: 140px;
+  }
+  .kanan p {
+    margin-left: 140px;
+    font-size: 16px;
+    width: 720px;
+    height: 54px;
+  }
+  .icon {
+    display: none;
+  }
+  .kiri {
+    margin-top: 37px;
+  }
+  .kiri img {
+    width: 800px;
+    height: auto;
+  }
+  .container-2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+    margin-left: 72px;
+    margin-top: 120px;
+    margin-bottom: 144px;
+}
+.atas p{
+    font-size: 16px;
+}
+.atas h3{
+    font-size: 55px;
+}
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.one{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.one h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.one h5{
+    font-size: 24px;
+    color: greenyellow;
+    
+}
+.one span{
+    color: aliceblue;
+}
+.one p{
+    font-size: 16px;
+    width: 368px;
+    height: 48px;
+}
+.two{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.two h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.two h5{
+    font-size: 24px;
+    color: lightblue;
+    
+}
+.two span{
+    color: aliceblue;
+}
+.two p{
+    font-size: 16px;
+    width: 368px;
+    height: 48px;
+}
+.three{
+    /* background-color: red ; */
+    margin-top: 40px;
+}
+.three h2{
+    font-size: 117px;
+    color: rgba(240, 255, 255, 0.719);
+}
+.three h5{
+    font-size: 24px;
+    color: pink;
+    
+}
+.three span{
+    color: aliceblue;
+}
+.three p{
+    font-size: 16px;
+    width: 368px;
+    height: 72px;
+}
+.container-3{
+    background-color: #FFF3E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.top .filsuf{
+    font-size: 55px;
+    font-weight: bold;
+}
+.top .isi{
+    font-size: 18px;
+    color: darkgray;
+    width: 576px;
+    height: 108px;
+}
+.top .more {
+    /* border-bottom: 2px solid black; */
+    color: black;
+    margin-top: 200px;
+}
+.bottom{
+    margin-top: 48px;
+    margin-left: 15px;
+}
+.pertama{
+    display: none;
+}
+.kedua{
+    display: block;
+    margin-bottom: 20px;
+}
+
+}
