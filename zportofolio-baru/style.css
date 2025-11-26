@@ -66,110 +66,324 @@ nav a {
   width: 320px;
   height: 135px;
 }
-.container-2{
-    color: white;
-    display: flex;
-    flex-direction: column;
+.container-2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
 
-    margin-left: 20px;
-    margin-top: 64px;
-    margin-bottom: 64px;
+  margin-left: 20px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
-.atas p{
-    font-size: 16px;
+.atas p {
+  font-size: 16px;
 }
-.atas h3{
-    font-size: 32px;
+.atas h3 {
+  font-size: 32px;
 }
-.one{
-    /* background-color: red ; */
-    margin-top: 40px;
+.one {
+  /* background-color: red ; */
+  margin-top: 40px;
 }
-.one h2{
-    font-size: 117px;
-    color: rgba(240, 255, 255, 0.719);
+.one h2 {
+  font-size: 117px;
+  color: rgba(240, 255, 255, 0.719);
 }
-.one h5{
-    font-size: 24px;
-    color: greenyellow;
-    
+.one h5 {
+  font-size: 24px;
+  color: greenyellow;
 }
-.one span{
-    color: aliceblue;
+.one span {
+  color: aliceblue;
 }
-.one p{
-    font-size: 16px;
+.one p {
+  font-size: 16px;
 }
-.two{
-    /* background-color: red ; */
-    margin-top: 40px;
+.two {
+  /* background-color: red ; */
+  margin-top: 40px;
 }
-.two h2{
-    font-size: 117px;
-    color: rgba(240, 255, 255, 0.719);
+.two h2 {
+  font-size: 117px;
+  color: rgba(240, 255, 255, 0.719);
 }
-.two h5{
-    font-size: 24px;
-    color: lightblue;
-    
+.two h5 {
+  font-size: 24px;
+  color: lightblue;
 }
-.two span{
-    color: aliceblue;
+.two span {
+  color: aliceblue;
 }
-.two p{
-    font-size: 16px;
+.two p {
+  font-size: 16px;
 }
-.three{
-    /* background-color: red ; */
-    margin-top: 40px;
+.three {
+  /* background-color: red ; */
+  margin-top: 40px;
 }
-.three h2{
-    font-size: 117px;
-    color: rgba(240, 255, 255, 0.719);
+.three h2 {
+  font-size: 117px;
+  color: rgba(240, 255, 255, 0.719);
 }
-.three h5{
-    font-size: 24px;
-    color: pink;
-    
+.three h5 {
+  font-size: 24px;
+  color: pink;
 }
-.three span{
-    color: aliceblue;
+.three span {
+  color: aliceblue;
 }
-.three p{
-    font-size: 16px;
+.three p {
+  font-size: 16px;
 }
-.container-3{
-    background-color: #FFF3E4;
-    display: flex;
-    flex-direction: column;
+.container-3 {
+  background-color: #fff3e4;
+  display: flex;
+  flex-direction: column;
 }
-.top{
-    margin-left: 20px;
-    margin-top: 46px;
+.top {
+  margin-left: 20px;
+  margin-top: 46px;
 }
-.top .filsuf{
-    font-size: 32px;
-    font-weight: bold;
+.top .filsuf {
+  font-size: 32px;
+  font-weight: bold;
 }
-.top .isi{
-    font-size: 18px;
-    color: darkgray;
-    width: 320px;
-    height: 189px;
+.top .isi {
+  font-size: 18px;
+  color: darkgray;
+  width: 320px;
+  height: 189px;
 }
 .top .more {
-    /* border-bottom: 2px solid black; */
-    color: black;
+  /* border-bottom: 2px solid black; */
+  color: black;
 }
-.bottom{
-    margin-top: 48px;
-    margin-left: 15px;
-}
-.kedua{
-    display: none;
+.bottom .pertama {
+  /* margin-top: 48px;
+    margin-left: 15px; */
+  width: 100%;
+  /* background-color: red; */
 }
 
+.pertama img {
+  width: 100%;
+}
+#kedua {
+  display: none;
+}
+.container-4 {
+  display: flex;
+  flex-direction: column;
 
+  color: #fff;
+
+  margin-bottom: 64px;
+}
+.su {
+  margin-left: 20px;
+}
+.su h1 {
+  margin-top: 46px;
+}
+.su p {
+  margin-top: 16px;
+  width: 320px;
+  height: 162px;
+}
+.inferiore {
+  margin-left: 20px;
+}
+.wahid h1 {
+  margin-top: 24px;
+}
+.wahid p {
+  margin-top: 24px;
+}
+.tsany img {
+  margin-top: 24px;
+}
+.tsany h1 {
+  margin-top: 24px;
+}
+.tsalasah img{
+  margin-top: 24px;
+}
+.rabiah{
+  margin-top: 24px;
+}
+.tidak{
+  display: none;
+}
+.responsive{
+  margin-left: 20px;
+}
+
+.container-5{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+
+  margin-left: 30px;
+}
+.tulisan{
+  margin-left: 20px;
+}
+.bagian-salad{
+  background-color:  rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-salad img{
+  width: 320px;
+  height: 305px;
+}
+.bagian-salad h3{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-salad p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.bagian-cuaca{
+  background-color:  rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-cuaca img{
+  width: 320px;
+  height: 305px;
+}
+.bagian-cuaca h3{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-cuaca p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.bagian-strava{
+  background-color:  rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-strava img{
+  width: 320px;
+  height: 305px;
+}
+.bagian-strava h3{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-strava p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.bagian-kotak{
+  background-color: rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-kotak img{
+  width: 320px;
+  height: 305px;
+}
+.bagian-kotak h3{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-kotak p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.container-6{
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: #FFF3E4; */
+
+  margin-top: 64px;
+}
+.tinggai{
+  background-color: #FFF3E4;
+  width: 360px;
+  height: 450px;
+
+  margin-left: 20px;
+}
+.tinggai p{
+  width: 320px;
+  height: 162px;
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+.tinggai a{
+  padding-left: 20px;
+  color: #000;
+}
+.tinggai h2{
+  padding-top: 46px;
+  padding-left: 20px;
+}
+.betoi img{
+  width: 360px;
+  height: 450px;
+
+  margin-left: 20px;
+}
+.container-7{
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+
+  margin-left: 20px;
+}
+.の上 h2{
+    font-size: 32px;
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+.の上 p{
+  font-size: 18px;
+  width: 319px;
+  height: 108px;
+
+  margin-bottom: 80px;
+}
+.の上 a{
+  color: #fff;
+  /* margin-bottom: 48px; */
+}
+.より低い img{
+  margin-top: 48px;
+  width: 320px;
+  height: 260px;
+}
 
 @media (min-width: 700px) {
   header {
@@ -181,7 +395,7 @@ nav a {
   }
   .logo h1 {
     color: white;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 50px;
   }
   nav {
@@ -196,12 +410,6 @@ nav a {
     color: rgba(255, 255, 255, 0.514);
     text-decoration: none;
     display: block;
-  }
-  .active {
-    /* background-color: white; */
-    /* padding: 4px 8px; */
-    /* color: black;
-    border-radius: 30px; */
   }
   .container-1 {
     display: flex;
@@ -242,126 +450,281 @@ nav a {
     width: 800px;
     height: auto;
   }
-  .container-2{
+  .container-2 {
     color: white;
     display: flex;
     flex-direction: column;
 
-
     margin-left: 72px;
     margin-top: 120px;
     margin-bottom: 144px;
-}
-.atas p{
+  }
+  .atas p {
     font-size: 16px;
-}
-.atas h3{
+  }
+  .atas h3 {
     font-size: 55px;
-}
-.bawah{
+  }
+  .bawah {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-}
-.one{
+  }
+  .one {
     /* background-color: red ; */
     margin-top: 40px;
-}
-.one h2{
+  }
+  .one h2 {
     font-size: 117px;
     color: rgba(240, 255, 255, 0.719);
-}
-.one h5{
+  }
+  .one h5 {
     font-size: 24px;
     color: greenyellow;
-    
-}
-.one span{
+  }
+  .one span {
     color: aliceblue;
-}
-.one p{
+  }
+  .one p {
     font-size: 16px;
     width: 368px;
     height: 48px;
-}
-.two{
+  }
+  .two {
     /* background-color: red ; */
     margin-top: 40px;
-}
-.two h2{
+  }
+  .two h2 {
     font-size: 117px;
     color: rgba(240, 255, 255, 0.719);
-}
-.two h5{
+  }
+  .two h5 {
     font-size: 24px;
     color: lightblue;
-    
-}
-.two span{
+  }
+  .two span {
     color: aliceblue;
-}
-.two p{
+  }
+  .two p {
     font-size: 16px;
     width: 368px;
     height: 48px;
-}
-.three{
+  }
+  .three {
     /* background-color: red ; */
     margin-top: 40px;
-}
-.three h2{
+  }
+  .three h2 {
     font-size: 117px;
     color: rgba(240, 255, 255, 0.719);
-}
-.three h5{
+  }
+  .three h5 {
     font-size: 24px;
     color: pink;
-    
-}
-.three span{
+  }
+  .three span {
     color: aliceblue;
-}
-.three p{
+  }
+  .three p {
     font-size: 16px;
     width: 368px;
     height: 72px;
-}
-.container-3{
-    background-color: #FFF3E4;
+  }
+  .container-3 {
+    background-color: #fff3e4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.top{
+  }
+  .top {
     margin-left: 200px;
     margin-top: 200px;
-}
-.top .filsuf{
+  }
+  .top .filsuf {
     font-size: 55px;
     font-weight: bold;
-}
-.top .isi{
+  }
+  .top .isi {
     font-size: 18px;
     color: darkgray;
     width: 576px;
     height: 108px;
-}
-.top .more {
+  }
+  .top .more {
     /* border-bottom: 2px solid black; */
     color: black;
     margin-top: 200px;
-}
-.bottom{
+  }
+  .bottom {
     margin-top: 48px;
     margin-left: 15px;
-}
-.pertama{
+  }
+  .pertama {
     display: none;
+  }
+  #kedua {
+    /* display: block;
+    margin-bottom: 20px; */
+    width: 300px;
+  overflow: hidden;
+  border: 1px solid #333;
+  white-space: nowrap;
+  }
+  #image{
+    display: inline-block;
+  padding-left: 100%;
+  position: relative;   
+  }
+  .container-4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  padding: 60px;
+  background: #0e0e0e;
+  color: #fff;
 }
-.kedua{
-    display: block;
-    margin-bottom: 20px;
+
+.su {
+  line-height: 1.6;
+}
+.su h1{
+  font-size: 55px;
+}
+
+.inferiore  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.wahid{
+  width: 368px;
+  height: 169px;
+}
+.tsany{
+  width: 416px;
+  height: 169px;
+}
+.tsalasah{
+  width: 416px;
+  height: 192px;
+}
+.rabiah{
+  width: 416px;
+  height: 169px;
+}
+.skill-box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.skill-box p {
+  color: #a7a7a7;
+}
+.tidak{
+  display: block;
+  text-align: center;
+}
+.responsive{
+  display: none;
+}
+.container-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 200px;
+  margin-bottom: 118px;
+  
+}
+.tulisan h1{
+  font-size: 55px;
+}
+.bagian-salad{
+  width: 636px;
+  height: 825px;
+}
+.bagian-salad img{
+  width: 636px;
+  height: 619px;
+}
+.bagian-cuaca{
+  width: 636px;
+  height: 825px;
+}
+.bagian-cuaca img{
+  width: 636px;
+  height: 619px;
+}
+.bagian-strava{
+  width: 636px;
+  height: 825px;
+}
+.bagian-strava img{
+  width: 636px;
+  height: 619px;
+}
+.bagian-kotak{
+  width: 636px;
+  height: 825px;
+
+  /* margin-left: 72px; */
+}
+.bagian-kotak img{
+  width: 636px;
+  height: 619px;
+}
+.droite{
+  display: flex;
+  flex-direction: column;
+}
+.container-6{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  background-color: #FFF3E4;
+}
+
+.tinggai h2{
+  font-size: 55px;
+  margin-left: 72px;
+  margin-bottom: 24px;
+}
+.tinggai p{
+ /* background-color: red; */
+ margin-left: 72px;
+ width: 636px;
+ height: 81px;
+ margin-bottom: 160px;
+}
+.tinggai a{
+  color: black;
+  margin-left: 72px;
+}
+.betoi img{
+    width: 666px;
+    height: 600px;
+}
+.container-7{
+  display: flex;
+  flex-direction: column;
+}
+.の上{
+  margin-left: 380px;
+  margin-top: 120px;
+}
+.の上 h2{
+  font-size: 55px;
+}
+.の上 p{
+  font-size: 18px;
+  width: 636px;
+  height: 54px;
+}
+.より低い img{
+  width: 1076px;
+  height: 640px;
+  margin-left: 380px;
+  margin-top: 120px;
 }
 
 }

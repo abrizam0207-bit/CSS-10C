@@ -1,0 +1,31 @@
+.container{
+    width:  200px;
+    height: 600px;
+    background-color: red;
+}
+.container-1{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+}
+.card-one{
+    width: 16px;
+    height: auto;
+    background-color: brown;
+}
+.card-two{
+    width: 1em;
+    background-color: green;
+}
+.parent{
+    display: flex;
+
+}
+img{
+    width: 100%;
+}
+.wrap-img{
+    width: 100%;
+
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alfa Slab One';
+}
+header{
+    background-color: #FF8F0C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 132px;
+    /* box-shadow:px  black ; */
+}
+.logo{
+    margin-left: 24px;
+}
+nav{
+    margin-right: 31px;
+}
+a{
+    padding: 37px;
+    text-decoration: none;
+    color: white;
+}  
+#tugas-page2{
+    background-image: url(./Background\ Doodle.png);
+    height: 1024px;
+} 
+.foto{
+    margin-left:  730px;
+}
+.seru{
+    text-align: center;
+    font-size: 51px;
+}
+.nanya{
+    text-align: center;
+    font-size: 51px;
+    color: #FF8F0C;
+}
+h4{
+    font-size: 23px;
+    text-align: center;
+}
+span{
+    color: #FF8F0C;
+}
+button{
+    width: 195px;
+    height: 62px;
+    background-color: #FF8F0C;
+    color: white;
+    border: none;
+    margin-top: 36px;
+    margin-left: 820px;
+    border-radius: 6px;
+    font-size: 20px;
+}
