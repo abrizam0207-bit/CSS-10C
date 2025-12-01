@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas - 24 Box Model</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./logo(1).png" alt="LOgo" />
+      </div>
+    </header>
+    <main>
+      <section id="verify-code">
+        <div class="container">
+          <div class="kiri">
+            <a href="" class="back">< Back to login</a>
+            <h1>Verify code</h1>
+            <p class="gray">
+              An authentication code has been sent to your email.
+            </p>
+            <div class="floating-group">
+              <input type="text" id="codeInput" value="7789BM6X" required />
+              <label for="codeInput">Enter Code</label>
+              <span class="eye-icon" onclick="toggleCode()">👁️‍🗨️</span>
+            </div>
+            <p class="resend">
+                Didn’t receive a code? 
+                <span> Resend</span>
+            </p>
+            <button>Verify</button>
+          </div>
+          <div class="kanan">
+            <img src="./resend.png" alt="resend">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      function toggleCode() {
+        const input = document.getElementById("codeInput");
+        input.type = input.type === "password" ? "text" : "password";
+      }
+    </script>
+  </body>
+</html>
