@@ -1,0 +1,30 @@
+.tab-wrapper{
+    width: 500px;
+    background-color: #0d6efd;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tab-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tab-list li{
+    display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+.tab-list li.active{
+    font-weight: bold;
+}
+.tab-scrolly{
+    background-color: antiquewhite;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    width: 500px;
+    height: 300px;
+}

@@ -84,3 +84,75 @@ button{
     margin-top: 32px;
     border-radius: 4px;
 }
+/* Kunci scroll body agar user tidak bisa scroll sebelum klik */
+body.stop-scrolling {
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* Tampilan Layar Pembuka */
+#welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #050505; /* Hitam pekat */
+    z-index: 10000; /* Paling depan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: opacity 0.8s ease-in-out, visibility 0.8s;
+}
+
+/* Kotak konten di tengah */
+.content-box {
+    text-align: center;
+    animation: fadeIn 1.5s ease;
+}
+
+.content-box h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.content-box p {
+    color: #888;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+/* Gaya Tombol */
+#enter-btn {
+    padding: 12px 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#enter-btn:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Class untuk menghilangkan layar (dipanggil oleh JS) */
+.hide-welcome {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Animasi tulisan muncul pelan */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

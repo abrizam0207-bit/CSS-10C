@@ -1,0 +1,32 @@
+.kotak{
+    background-color: orange;
+}
+.kotak img{
+    float: right;
+}
+.sec-2{
+    clear: left;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+
+    margin: 4px;
+    float: left;
+}
+.box-2{
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+
+    margin: 4px;
+    clear: left;
+}
+.sec-3{
+    background-color: brown;
+    overflow: auto;
+}
+.sec-3 img{
+    float: left;
+}

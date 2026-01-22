@@ -207,122 +207,122 @@ nav a {
 .tsany h1 {
   margin-top: 24px;
 }
-.tsalasah img{
+.tsalasah img {
   margin-top: 24px;
 }
-.rabiah{
+.rabiah {
   margin-top: 24px;
 }
-.tidak{
+.tidak {
   display: none;
 }
-.responsive{
+.responsive {
   margin-left: 20px;
 }
 
-.container-5{
+.container-5 {
   display: flex;
   flex-direction: column;
   color: #fff;
 
   margin-left: 30px;
 }
-.tulisan{
+.tulisan {
   margin-left: 20px;
 }
-.bagian-salad{
-  background-color:  rgb(107, 107, 107);
-  width: 320px;
-  height: 589px;
-
-  margin-top: 40px;
-}
-.bagian-salad img{
-  width: 320px;
-  height: 305px;
-}
-.bagian-salad h3{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  padding-bottom: 16px;
-}
-.bagian-salad p{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  /* padding-bottom: 16px; */
-}
-.bagian-cuaca{
-  background-color:  rgb(107, 107, 107);
-  width: 320px;
-  height: 589px;
-
-  margin-top: 40px;
-}
-.bagian-cuaca img{
-  width: 320px;
-  height: 305px;
-}
-.bagian-cuaca h3{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  padding-bottom: 16px;
-}
-.bagian-cuaca p{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  /* padding-bottom: 16px; */
-}
-.bagian-strava{
-  background-color:  rgb(107, 107, 107);
-  width: 320px;
-  height: 589px;
-
-  margin-top: 40px;
-}
-.bagian-strava img{
-  width: 320px;
-  height: 305px;
-}
-.bagian-strava h3{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  padding-bottom: 16px;
-}
-.bagian-strava p{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 24px;
-  /* padding-bottom: 16px; */
-}
-.bagian-kotak{
+.bagian-salad {
   background-color: rgb(107, 107, 107);
   width: 320px;
   height: 589px;
 
   margin-top: 40px;
 }
-.bagian-kotak img{
+.bagian-salad img {
   width: 320px;
   height: 305px;
 }
-.bagian-kotak h3{
+.bagian-salad h3 {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 24px;
   padding-bottom: 16px;
 }
-.bagian-kotak p{
+.bagian-salad p {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 24px;
   /* padding-bottom: 16px; */
 }
-.container-6{
+.bagian-cuaca {
+  background-color: rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-cuaca img {
+  width: 320px;
+  height: 305px;
+}
+.bagian-cuaca h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-cuaca p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.bagian-strava {
+  background-color: rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-strava img {
+  width: 320px;
+  height: 305px;
+}
+.bagian-strava h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-strava p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.bagian-kotak {
+  background-color: rgb(107, 107, 107);
+  width: 320px;
+  height: 589px;
+
+  margin-top: 40px;
+}
+.bagian-kotak img {
+  width: 320px;
+  height: 305px;
+}
+.bagian-kotak h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+.bagian-kotak p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 24px;
+  /* padding-bottom: 16px; */
+}
+.container-6 {
   display: flex;
   flex-direction: column;
 
@@ -330,34 +330,34 @@ nav a {
 
   margin-top: 64px;
 }
-.tinggai{
-  background-color: #FFF3E4;
+.tinggai {
+  background-color: #fff3e4;
   width: 360px;
   height: 450px;
 
   margin-left: 20px;
 }
-.tinggai p{
+.tinggai p {
   width: 320px;
   height: 162px;
   padding-left: 20px;
   margin-bottom: 100px;
 }
-.tinggai a{
+.tinggai a {
   padding-left: 20px;
   color: #000;
 }
-.tinggai h2{
+.tinggai h2 {
   padding-top: 46px;
   padding-left: 20px;
 }
-.betoi img{
+.betoi img {
   width: 360px;
   height: 450px;
 
   margin-left: 20px;
 }
-.container-7{
+.container-7 {
   display: flex;
   flex-direction: column;
 
@@ -365,45 +365,45 @@ nav a {
 
   margin-left: 20px;
 }
-.の上 h2{
-    font-size: 32px;
-    margin-top: 64px;
-    margin-bottom: 20px;
+.の上 h2 {
+  font-size: 32px;
+  margin-top: 64px;
+  margin-bottom: 20px;
 }
-.の上 p{
+.の上 p {
   font-size: 18px;
   width: 319px;
   height: 108px;
 
   margin-bottom: 80px;
 }
-.の上 a{
+.の上 a {
   color: #fff;
   /* margin-bottom: 48px; */
 }
-.より低い img{
+.より低い img {
   margin-top: 48px;
   width: 320px;
   height: 260px;
 }
-.search-container{
+.search-container {
   display: none;
 }
-.container-8{
+.container-8 {
   margin-top: 64px;
   color: #fff;
 }
-.something{
+.something {
   font-size: 25px;
 }
-.birth{
+.birth {
   font-size: 18px;
   margin-bottom: 40px;
 }
-.campi-kiri a{
+.campi-kiri a {
   color: #fff;
 }
-.campi-kanan{
+.campi-kanan {
   /* background-color: #5B6876; */
   margin-top: 48px;
   /* border: 2px 2px 4px solid white; */
@@ -414,80 +414,80 @@ nav a {
 /* .campi-kanan img{
   margin-left: 10px;
 } */
- .kesatu{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
+.kesatu {
+  border-left: 2px solid #5b6876;
+  border-right: 2px solid #5b6876;
   /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
- }
-.robin{
+  border-bottom: 2px solid #5b6876;
+}
+.robin {
   width: 280px;
   height: 162px;
   margin-left: 35px;
   margin-top: 24px;
 }
-.ceo-1{
+.ceo-1 {
   margin-top: 62px;
   margin-left: 35px;
 }
-.company-1{
+.company-1 {
   margin-left: 35px;
   margin-bottom: 40px;
 }
- .kedua{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
+.kedua {
+  border-left: 2px solid #5b6876;
+  border-right: 2px solid #5b6876;
   /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
+  border-bottom: 2px solid #5b6876;
   margin-top: 40px;
- }
-.emil{
+}
+.emil {
   width: 280px;
   height: 162px;
   margin-left: 35px;
   margin-top: 24px;
 }
-.ceo-2{
+.ceo-2 {
   margin-top: 62px;
   margin-left: 35px;
 }
-.company-2{
+.company-2 {
   margin-left: 35px;
   margin-bottom: 40px;
 }
- .ketiga{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
+.ketiga {
+  border-left: 2px solid #5b6876;
+  border-right: 2px solid #5b6876;
   /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
+  border-bottom: 2px solid #5b6876;
   margin-top: 40px;
- }
-.vincent{
+}
+.vincent {
   width: 280px;
   height: 162px;
   margin-left: 35px;
   margin-top: 24px;
 }
-.ceo-3{
+.ceo-3 {
   margin-top: 62px;
   margin-left: 35px;
 }
-.company-3{
+.company-3 {
   margin-left: 35px;
   margin-bottom: 40px;
 }
-.dekstop{
+.dekstop {
   display: none;
 }
-.laptop{
+.laptop {
   display: none;
 }
-.container-9{
+.container-9 {
   margin-top: 1200px;
   color: white;
   margin-left: 35px;
 }
- .btn-grid {
+.btn-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -501,34 +501,34 @@ nav a {
   text-transform: uppercase;
   background: transparent;
   color: #fff;
-  border: 2px solid #643CFF; /* warna border ungu */
+  border: 2px solid #643cff; /* warna border ungu */
   border-radius: 4px;
   cursor: pointer;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
 
 .btn:hover {
-  background: #643CFF33; /* sedikit ungu saat hover */
+  background: #643cff33; /* sedikit ungu saat hover */
 }
 
 .btn.active {
-  background: #643CFF;   /* ungu solid */
+  background: #643cff; /* ungu solid */
   color: #fff;
-  border-color: #643CFF;
+  border-color: #643cff;
 }
-.hp p{
+.hp p {
   width: 319px;
   height: 81px;
   margin-top: 16px;
 }
-.hp img{
+.hp img {
   margin-top: 40px;
   margin-bottom: 64px;
 }
-.handphone{
+.handphone {
   display: block;
 }
-.pc{
+.pc {
   display: none;
 }
 #biz {
@@ -571,36 +571,114 @@ nav a {
 
 #biz .btn-submit {
   padding: 15px;
-  background: #643CFF;
+  background: #643cff;
   color: #fff;
   font-weight: 600;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 #biz .btn-submit:hover {
   background: #582fe6;
 }
-.kipas{
+.kipas {
   display: none;
 }
-.hadpone p{
+.hadpone p {
   color: #fff;
   text-align: center;
   margin-top: 20px;
 }
-.hadpone a{
+.hadpone a {
   color: #fff;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   text-decoration: none;
 }
-.hadpone p{
+.hadpone p {
   background-color: #fff;
   color: #000;
+}
+/* Kunci scroll body agar user tidak bisa scroll sebelum klik */
+body.stop-scrolling {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Tampilan Layar Pembuka */
+#welcome-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #050505; /* Hitam pekat */
+  z-index: 10000; /* Paling depan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: opacity 0.8s ease-in-out, visibility 0.8s;
+}
+
+/* Kotak konten di tengah */
+.content-box {
+  text-align: center;
+  animation: fadeIn 1.5s ease;
+}
+
+.content-box h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.content-box p {
+  color: #888;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
+
+/* Gaya Tombol */
+#enter-btn {
+  padding: 12px 30px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+#enter-btn:hover {
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Class untuk menghilangkan layar (dipanggil oleh JS) */
+.hide-welcome {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Animasi tulisan muncul pelan */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 @media (min-width: 700px) {
   header {
@@ -622,9 +700,9 @@ nav a {
     width: 100%;
     max-width: 400px;
     margin-top: 30px;
-}
+  }
 
-.search-input {
+  .search-input {
     flex: 1;
     padding: 10px 14px;
     border-radius: 8px;
@@ -632,14 +710,14 @@ nav a {
     font-size: 16px;
     outline: none;
     transition: all 0.2s ease;
-}
+  }
 
-.search-input:focus {
+  .search-input:focus {
     border-color: #007bff;
     box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
-}
+  }
 
-.search-btn {
+  .search-btn {
     padding: 10px 18px;
     background: white;
     color: black;
@@ -648,11 +726,11 @@ nav a {
     cursor: pointer;
     font-size: 16px;
     transition: 0.2s;
-}
+  }
 
-.search-btn:hover {
+  .search-btn:hover {
     background: #0056b3;
-}
+  }
   nav {
     margin-top: 25px;
     margin-right: 40px;
@@ -821,365 +899,360 @@ nav a {
     /* display: block;
     margin-bottom: 20px; */
     width: 300px;
-  overflow: hidden;
-  border: 1px solid #333;
-  white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #333;
+    white-space: nowrap;
   }
-  #image{
+  #image {
     display: inline-block;
-  padding-left: 100%;
-  position: relative;   
+    padding-left: 100%;
+    position: relative;
   }
   .container-4 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  padding: 60px;
-  background: #0e0e0e;
-  color: #fff;
-}
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    padding: 60px;
+    background: #0e0e0e;
+    color: #fff;
+  }
 
-.su {
-  line-height: 1.6;
-}
-.su h1{
-  font-size: 55px;
-}
+  .su {
+    line-height: 1.6;
+  }
+  .su h1 {
+    font-size: 55px;
+  }
 
-.inferiore  {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-.wahid{
-  width: 368px;
-  height: 169px;
-}
-.tsany{
-  width: 416px;
-  height: 169px;
-}
-.tsalasah{
-  width: 416px;
-  height: 192px;
-}
-.rabiah{
-  width: 416px;
-  height: 169px;
-}
-.skill-box h3 {
-  margin-bottom: 10px;
-  font-size: 20px;
-}
+  .inferiore {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .wahid {
+    width: 368px;
+    height: 169px;
+  }
+  .tsany {
+    width: 416px;
+    height: 169px;
+  }
+  .tsalasah {
+    width: 416px;
+    height: 192px;
+  }
+  .rabiah {
+    width: 416px;
+    height: 169px;
+  }
+  .skill-box h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
 
-.skill-box p {
-  color: #a7a7a7;
-}
-.tidak{
-  display: block;
-  text-align: center;
-}
-.responsive{
-  display: none;
-}
-.container-5{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  .skill-box p {
+    color: #a7a7a7;
+  }
+  .tidak {
+    display: block;
+    text-align: center;
+  }
+  .responsive {
+    display: none;
+  }
+  .container-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-  margin-top: 200px;
-  margin-bottom: 118px;
-  
-}
-.tulisan h1{
-  font-size: 55px;
-}
-.bagian-salad{
-  width: 636px;
-  height: 825px;
-}
-.bagian-salad img{
-  width: 636px;
-  height: 619px;
-}
-.bagian-cuaca{
-  width: 636px;
-  height: 825px;
-}
-.bagian-cuaca img{
-  width: 636px;
-  height: 619px;
-}
-.bagian-strava{
-  width: 636px;
-  height: 825px;
-}
-.bagian-strava img{
-  width: 636px;
-  height: 619px;
-}
-.bagian-kotak{
-  width: 636px;
-  height: 825px;
+    margin-top: 200px;
+    margin-bottom: 118px;
+  }
+  .tulisan h1 {
+    font-size: 55px;
+  }
+  .bagian-salad {
+    width: 636px;
+    height: 825px;
+  }
+  .bagian-salad img {
+    width: 636px;
+    height: 619px;
+  }
+  .bagian-cuaca {
+    width: 636px;
+    height: 825px;
+  }
+  .bagian-cuaca img {
+    width: 636px;
+    height: 619px;
+  }
+  .bagian-strava {
+    width: 636px;
+    height: 825px;
+  }
+  .bagian-strava img {
+    width: 636px;
+    height: 619px;
+  }
+  .bagian-kotak {
+    width: 636px;
+    height: 825px;
 
-  /* margin-left: 72px; */
-}
-.bagian-kotak img{
-  width: 636px;
-  height: 619px;
-}
-.droite{
-  display: flex;
-  flex-direction: column;
-}
-.container-6{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between ;
-  background-color: #FFF3E4;
-}
+    /* margin-left: 72px; */
+  }
+  .bagian-kotak img {
+    width: 636px;
+    height: 619px;
+  }
+  .droite {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff3e4;
+  }
 
-.tinggai h2{
-  font-size: 55px;
-  margin-left: 72px;
-  margin-bottom: 24px;
-}
-.tinggai p{
- /* background-color: red; */
- margin-left: 72px;
- width: 636px;
- height: 81px;
- margin-bottom: 160px;
-}
-.tinggai a{
-  color: black;
-  margin-left: 72px;
-}
-.betoi img{
+  .tinggai h2 {
+    font-size: 55px;
+    margin-left: 72px;
+    margin-bottom: 24px;
+  }
+  .tinggai p {
+    /* background-color: red; */
+    margin-left: 72px;
+    width: 636px;
+    height: 81px;
+    margin-bottom: 160px;
+  }
+  .tinggai a {
+    color: black;
+    margin-left: 72px;
+  }
+  .betoi img {
     width: 666px;
     height: 600px;
-}
-.container-7{
-  display: flex;
-  flex-direction: column;
-}
-.の上{
-  margin-left: 380px;
-  margin-top: 120px;
-}
-.の上 h2{
-  font-size: 55px;
-}
-.の上 p{
-  font-size: 18px;
-  width: 636px;
-  height: 54px;
-}
-.より低い img{
-  width: 1076px;
-  height: 640px;
-  margin-left: 380px;
-  margin-top: 120px;
-}
-.mobile{
-  display: none;
-}
-.dekstop{
-  display: block;
-}
-.container-8 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: #fff;
+  }
+  .container-7 {
+    display: flex;
+    flex-direction: column;
+  }
+  .の上 {
+    margin-left: 380px;
+    margin-top: 120px;
+  }
+  .の上 h2 {
+    font-size: 55px;
+  }
+  .の上 p {
+    font-size: 18px;
+    width: 636px;
+    height: 54px;
+  }
+  .より低い img {
+    width: 1076px;
+    height: 640px;
+    margin-left: 380px;
+    margin-top: 120px;
+  }
+  .mobile {
+    display: none;
+  }
+  .dekstop {
+    display: block;
+  }
+  .container-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
 
-  margin-top: 120px;
-}
-.campi-kiri{
-  width: 596px;
-  height: 279px;
-  margin-left: 72px;
-}
-.something{
-  font-size: 55px;
-}
-.campi-kanan{
-  /* background-color: #5B6876; */
-  margin-top: 48px;
-  /* border: 2px 2px 4px solid white; */
-  width: 636px;
-  height: 392px;
-  margin-left: 20px;
-  margin-right: 72px;
-}
-.kesatu-dekstop{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
-  /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
- }
- .robin-hood{
-  width: 508px;
-  height: 145px;
-  font-size: 24px;
-  margin-left: 64px;
-  margin-top: 63px;
+    margin-top: 120px;
+  }
+  .campi-kiri {
+    width: 596px;
+    height: 279px;
+    margin-left: 72px;
+  }
+  .something {
+    font-size: 55px;
+  }
+  .campi-kanan {
+    /* background-color: #5B6876; */
+    margin-top: 48px;
+    /* border: 2px 2px 4px solid white; */
+    width: 636px;
+    height: 392px;
+    margin-left: 20px;
+    margin-right: 72px;
+  }
+  .kesatu-dekstop {
+    border-left: 2px solid #5b6876;
+    border-right: 2px solid #5b6876;
+    /* border-top: 2px solid #5B6876; */
+    border-bottom: 2px solid #5b6876;
+  }
+  .robin-hood {
+    width: 508px;
+    height: 145px;
+    font-size: 24px;
+    margin-left: 64px;
+    margin-top: 63px;
+  }
+  .ceo-1-dekstop {
+    margin-top: 62px;
+    margin-left: 64px;
+  }
+  .company-1-dekstop {
+    margin-left: 64px;
+    margin-bottom: 64px;
+  }
+  .kedua-dekstop {
+    border-left: 2px solid #5b6876;
+    border-right: 2px solid #5b6876;
+    /* border-top: 2px solid #5B6876; */
+    border-bottom: 2px solid #5b6876;
 
-}
-.ceo-1-dekstop{
-  margin-top: 62px;
-  margin-left: 64px;
-}
-.company-1-dekstop{
-  margin-left: 64px;
-  margin-bottom: 64px;
-}
-.kedua-dekstop{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
-  /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
+    margin-top: 120px;
+  }
+  .emil-parker {
+    width: 508px;
+    height: 145px;
+    font-size: 24px;
+    margin-left: 64px;
+    margin-top: 63px;
+  }
+  .ceo-2-dekstop {
+    margin-top: 62px;
+    margin-left: 64px;
+  }
+  .company-2-dekstop {
+    margin-left: 64px;
+    margin-bottom: 64px;
+  }
+  .ketiga-dekstop {
+    border-left: 2px solid #5b6876;
+    border-right: 2px solid #5b6876;
+    /* border-top: 2px solid #5B6876; */
+    border-bottom: 2px solid #5b6876;
+    margin-top: 120px;
+  }
+  .vincent-rudi {
+    width: 508px;
+    height: 145px;
+    font-size: 24px;
+    margin-left: 64px;
+    margin-top: 63px;
+  }
+  .ceo-3-dekstop {
+    margin-top: 62px;
+    margin-left: 64px;
+  }
+  .company-3-dekstop {
+    margin-left: 64px;
+    margin-bottom: 64px;
+  }
+  .hp {
+    display: none;
+  }
+  .laptop {
+    margin-top: 2300px;
+    display: block;
+    margin-left: 72px;
+  }
+  .laptop h1 {
+    font-size: 55px;
+  }
+  .btn-row {
+    margin-top: 64px;
+  }
+  .image-negara {
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+  .image-negara img {
+    padding: 24px;
+  }
+  .handphone {
+    display: none;
+  }
+  .pc {
+    display: block;
+    color: #fff;
+  }
+  #business {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 100px;
+    gap: 60px;
+  }
 
-  margin-top: 120px;
- }
- .emil-parker{
-  width: 508px;
-  height: 145px;
-  font-size: 24px;
-  margin-left: 64px;
-  margin-top: 63px;
+  #business .contact-left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
 
-}
-.ceo-2-dekstop{
-  margin-top: 62px;
-  margin-left: 64px;
-}
-.company-2-dekstop{
-  margin-left: 64px;
-  margin-bottom: 64px;
-}
-.ketiga-dekstop{
-  border-left: 2px solid #5B6876;
-  border-right: 2px solid #5B6876;
-  /* border-top: 2px solid #5B6876; */
-  border-bottom: 2px solid #5B6876;
-  margin-top: 120px;
- }
- .vincent-rudi{
-  width: 508px;
-  height: 145px;
-  font-size: 24px;
-  margin-left: 64px;
-  margin-top: 63px;
+  #business .contact-left p {
+    width: 380px;
+    line-height: 1.6;
+    color: #ccc;
+    font-size: 15px;
+  }
 
-}
-.ceo-3-dekstop{
-  margin-top: 62px;
-  margin-left: 64px;
-}
-.company-3-dekstop{
-  margin-left: 64px;
-  margin-bottom: 64px;
-}
-.hp{
-  display: none;
-}
-.laptop{
-  margin-top: 2300px;
-  display: block;
-  margin-left: 72px;
-}
-.laptop h1{
-  font-size: 55px;
+  #business .contact-right {
+    width: 50%;
+  }
 
-}
-.btn-row  {
-  margin-top: 64px;
-}
-.image-negara{
-  margin-top: 40px;
-  margin-left: -20px;
-}
-.image-negara img{
-   padding: 24px;
-}
-.handphone{
-  display: none;
-}
-.pc{
-  display: block;
-  color: #fff;
-}
-#business {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 80px 100px;
-  gap: 60px;
-}
+  #business form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-#business .contact-left h1 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
+  #business label {
+    font-size: 14px;
+    color: #cfcfcf;
+  }
 
-#business .contact-left p {
-  width: 380px;
-  line-height: 1.6;
-  color: #ccc;
-  font-size: 15px;
-}
+  #business input,
+  #business textarea {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    background: #16161d;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+  }
 
-#business .contact-right {
-  width: 50%;
-}
+  #business .btn-submit {
+    margin-top: 10px;
+    padding: 15px;
+    background: #643cff;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.25s;
+  }
 
-#business form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-#business label {
-  font-size: 14px;
-  color: #cfcfcf;
-}
-
-#business input,
-#business textarea {
-  width: 100%;
-  padding: 14px;
-  border: none;
-  outline: none;
-  background: #16161d;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-#business .btn-submit {
-  margin-top: 10px;
-  padding: 15px;
-  background: #643CFF;
-  border: none;
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: 0.25s;
-}
-
-#business .btn-submit:hover {
-  background: #582fe6;
-}
-.hadpone{
-  display: none;
-}
-.kipas{
-  display: block;
-}
-.konten {
+  #business .btn-submit:hover {
+    background: #582fe6;
+  }
+  .hadpone {
+    display: none;
+  }
+  .kipas {
+    display: block;
+  }
+  .konten {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1230,7 +1303,7 @@ nav a {
     height: 50px;
     /* text-align: center; */
   }
-  nav a:hover{
+  nav a:hover {
     color: wheat;
   }
   .angka {
@@ -1307,8 +1380,80 @@ nav a {
     margin-top: 13px;
     /* margin-bottom: .px; */
   }
-  .konten .dewek{
+  .konten .dewek {
     font-size: 55px;
     margin-bottom: 500px;
   }
+  /* Kunci scroll body agar user tidak bisa scroll sebelum klik */
+body.stop-scrolling {
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* Tampilan Layar Pembuka */
+#welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #050505; /* Hitam pekat */
+    z-index: 10000; /* Paling depan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: opacity 0.8s ease-in-out, visibility 0.8s;
+}
+
+/* Kotak konten di tengah */
+.content-box {
+    text-align: center;
+    animation: fadeIn 1.5s ease;
+}
+
+.content-box h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.content-box p {
+    color: #888;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+/* Gaya Tombol */
+#enter-btn {
+    padding: 12px 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#enter-btn:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Class untuk menghilangkan layar (dipanggil oleh JS) */
+.hide-welcome {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Animasi tulisan muncul pelan */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 }

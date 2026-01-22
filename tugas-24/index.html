@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,7 +16,9 @@
       <section id="verify-code">
         <div class="container">
           <div class="kiri">
-            <a href="" class="back">< Back to login</a>
+            <a href="./../zportofolio-baru/index.html" class="back"
+              >< Back to login</a
+            >
             <h1>Verify code</h1>
             <p class="gray">
               An authentication code has been sent to your email.
@@ -27,22 +29,50 @@
               <span class="eye-icon" onclick="toggleCode()">👁️‍🗨️</span>
             </div>
             <p class="resend">
-                Didn’t receive a code? 
-                <span> Resend</span>
+              Didn’t receive a code?
+              <span> Resend</span>
             </p>
             <button>Verify</button>
           </div>
           <div class="kanan">
-            <img src="./resend.png" alt="resend">
+            <img src="./resend.png" alt="resend" />
           </div>
         </div>
       </section>
+      <div id="welcome-screen">
+        <div class="content-box">
+          <h1>WELCOME</h1>
+          <p>Brizz.L Portfolio</p>
+          <button id="enter-btn">Click to Enter</button>
+        </div>
+      </div>
     </main>
     <script>
       function toggleCode() {
         const input = document.getElementById("codeInput");
         input.type = input.type === "password" ? "text" : "password";
       }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const welcomeScreen = document.getElementById("welcome-screen");
+        const enterBtn = document.getElementById("enter-btn");
+
+       
+        document.body.classList.add("stop-scrolling");
+
+        enterBtn.addEventListener("click", () => {
+          // 2. Tambahkan class CSS untuk efek memudar (fade out)
+          welcomeScreen.classList.add("hide-welcome");
+
+          // 3. Buka kunci scroll agar user bisa melihat web
+          document.body.classList.remove("stop-scrolling");
+
+          // --- OPSIONAL: Putar Musik di sini ---
+          // const audio = new Audio('musik-anda.mp3');
+          // audio.play();
+        });
+      });
     </script>
   </body>
 </html>

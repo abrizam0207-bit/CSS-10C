@@ -12,7 +12,11 @@
     />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" href="./ChatGPT_Image_27_Nov_2025__13.26.48-removebg-preview.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./ChatGPT_Image_27_Nov_2025__13.26.48-removebg-preview.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
@@ -25,13 +29,12 @@
         <a href="" class="rummah">Experience</a>
         <a href="#work" class="rummah"> Work</a>
         <a href="#foto-foto" class="rummah">Photography</a>
-        <a href=".kipas" class="rummah">Contact</a>
+        <a href="https://idollookbook.com/" class="rummah">Contact</a>
         <div class="icon">
           <i class="fa-solid fa-bars fa-2xl"></i>
         </div>
       </nav>
     </header>
-
     <section id="Home">
       <div class="container-1">
         <div class="kiri">
@@ -50,7 +53,15 @@
           </p>
         </div>
       </div>
+      
     </section>
+    <div id="welcome-screen">
+      <div class="content-box">
+        <h1>WELCOME</h1>
+        <p>Brizz.L Portfolio</p>
+        <button id="enter-btn">Click to Enter</button>
+      </div>
+    </div>
 
     <section id="Experience">
       <div class="container-2">
@@ -496,5 +507,40 @@
       </div>
       <footer>Copyright&copy;brizzzzaam 2025</footer>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const welcomeScreen = document.getElementById("welcome-screen");
+        const enterBtn = document.getElementById("enter-btn");
+
+      
+        document.body.classList.add("stop-scrolling");
+        enterBtn.addEventListener("click", () => { 
+          welcomeScreen.classList.add("hide-welcome");
+          document.body.classList.remove("stop-scrolling");
+        });
+      });
+    </script>
+    <script>
+      async function tanyaAI(pertanyaan) {
+        const response = await fetch(
+          "https://api.openai.com/v1/chat/completions",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: "Bearer API_KEY_ANDA_DI_SINI", 
+            },
+            body: JSON.stringify({
+              model: "gpt-3.5-turbo",
+              messages: [{ role: "user", content: pertanyaan }],
+            }),
+          }
+        );
+
+        const data = await response.json();
+        console.log(data.choices[0].message.content); 
+      }
+    </script>
   </body>
 </html>
